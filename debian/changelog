@@ -1,5 +1,129 @@
-template-repository (1.0-1) unstable; urgency=medium
+haskell-strict (0.4.0.1-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Clint Adams <clint@debian.org>  Thu, 16 Jun 2022 20:11:00 -0400
+
+haskell-strict (0.3.2-16) unstable; urgency=medium
+
+  [ Dmitry Bogatov ]
+  * Add missing "Upstream-Name" field into "debian/copyright".
+
+  [ Ilias Tsitsimpis ]
+  * Sourceful upload for GHC 8.8
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Sun, 14 Jun 2020 15:57:41 +0300
+
+haskell-strict (0.3.2-15) unstable; urgency=medium
+
+  [ Clint Adams ]
+  * Set Rules-Requires-Root to no.
+
+  [ Ilias Tsitsimpis ]
+  * Bump debhelper compat level to 10
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Sun, 30 Sep 2018 21:21:51 +0300
+
+haskell-strict (0.3.2-14) unstable; urgency=medium
+
+  [ Ilias Tsitsimpis ]
+  * Change Priority to optional. Since Debian Policy version 4.0.1,
+    priority extra has been deprecated.
+  * Use the HTTPS form of the copyright-format URL
+  * Modify d/watch and Source field in d/copyright to use HTTPS
+  * Declare compliance with Debian policy 4.1.1
+  * Use salsa.debian.org URLs in Vcs-{Browser,Git} fields
+
+  [ Clint Adams ]
+  * Bump to Standards-Version 4.1.4.
+
+ -- Clint Adams <clint@debian.org>  Mon, 09 Apr 2018 20:05:05 -0400
+
+haskell-strict (0.3.2-13) unstable; urgency=medium
+
+  * Upload to unstable as part of GHC 8 transition.
+
+ -- Clint Adams <clint@debian.org>  Thu, 27 Oct 2016 18:36:17 -0400
+
+haskell-strict (0.3.2-12) experimental; urgency=medium
+
+  [ Dmitry Bogatov ]
+  * Use secure (https) uri in Vcs-Git field in 'debian/control'
+  * Bump standards version to 3.9.8 (no changes needed)
+
+  [ Clint Adams ]
+  * Temporarily build-depend on ghc 8.
+
+ -- Clint Adams <clint@debian.org>  Fri, 14 Oct 2016 14:15:44 -0400
+
+haskell-strict (0.3.2-11) unstable; urgency=medium
+
+  * Switch Vcs-Git/Vcs-Browser headers to new location.
+
+ -- Clint Adams <clint@debian.org>  Thu, 03 Dec 2015 14:55:06 -0500
+
+haskell-strict (0.3.2-10) experimental; urgency=medium
+
+  * Bump standards-version to 3.9.6
+  * Depend on haskell-devscripts >= 0.10 to ensure that this package
+    builds against GHC in experimental
+
+ -- Joachim Breitner <nomeata@debian.org>  Thu, 20 Aug 2015 10:28:46 +0200
+
+haskell-strict (0.3.2-9) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Joachim Breitner <nomeata@debian.org>  Mon, 27 Apr 2015 11:53:48 +0200
+
+haskell-strict (0.3.2-8) experimental; urgency=low
+
+  * Adjust watch file to new hackage layout
+  * Depend on haskell-devscripts 0.9, found in experimental
+
+ -- Joachim Breitner <nomeata@debian.org>  Sat, 20 Dec 2014 17:12:15 +0100
+
+haskell-strict (0.3.2-7) unstable; urgency=low
+
+  * Move Haskell blurb to the end of the description, reduces the impact
+    of #708703
+
+ -- Joachim Breitner <nomeata@debian.org>  Sat, 25 May 2013 23:52:46 +0200
+
+haskell-strict (0.3.2-6) unstable; urgency=low
+
+  * Enable compat level 9
+  * Use substvars for Haskell description blurbs
+
+ -- Joachim Breitner <nomeata@debian.org>  Fri, 24 May 2013 12:52:08 +0200
+
+haskell-strict (0.3.2-5) experimental; urgency=low
+
+  * Replace non-human address in Uploaders by a human (Closes: #692083)
+
+ -- Joachim Breitner <nomeata@debian.org>  Thu, 07 Feb 2013 22:31:46 +0100
+
+haskell-strict (0.3.2-4) experimental; urgency=low
+
+  * Bump standards version, no change
+
+ -- Joachim Breitner <nomeata@debian.org>  Sun, 14 Oct 2012 12:02:09 +0200
+
+haskell-strict (0.3.2-3) experimental; urgency=low
+
+  * Depend on haskell-devscripts (>= 0.8.13), to ensure it is built
+    against experimental
+
+ -- Joachim Breitner <nomeata@debian.org>  Mon, 08 Oct 2012 23:08:21 +0200
+
+haskell-strict (0.3.2-2) unstable; urgency=low
+
+  * Sourceful upload to rebuild documentation package
+
+ -- Joachim Breitner <nomeata@debian.org>  Mon, 06 Feb 2012 18:19:36 +0100
+
+haskell-strict (0.3.2-1) unstable; urgency=low
+
+  * Initial release. (Closes: #628156)
+
+ -- Joachim Breitner <nomeata@debian.org>  Fri, 27 May 2011 20:21:50 +0200
